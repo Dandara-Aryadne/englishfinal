@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, sans-serif;
+    list-style: none;
+}
+header{
+    width: 100%;
+    border:slateblue;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    padding: 5%;
+    font-size: 40px;
+    color: skyblue;
+    font-family:'Festive', cursive;
+}
+.introduction img{
+    width: 98.5vw;
+}
+.textada{
+    margin-top: 10%;
+    padding:2%;
+    margin-left:8.2vw;
+}
+.texthome{
+    display: flex;
+    width: 44vw;
+    font-size:1.6vw;
+    margin-left: 5vw;
+}
+body{
+    height:100vh;
+    background-color:white;
+}
+h1:hover{
+    cursor:pointer;
+    color:lightcoral;
+    text-shadow: 40px 30px 30px lightsalmon;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+    height: 1vh;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin-top: -10%;
+    height: 10vh;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+a{
+    color:#58ACFA;
+}
+nav li:hover{
+    cursor: pointer;
+    font-weight: 900;
+    color:lightcoral;
+    text-shadow: 40px 30px 30px lightsalmon;
+}
+.ada{
+    margin-top: -5%;
+    
+}
+.ada img{
+    width: 20vw;
+}
+
+/*parte de cima da página*/
+
+@media(max-width:600px){
+   .ada{
+       top: 88.5%;
+       left: 2%;
+   } 
+}
+.ada:hover{
+    opacity: 70%;
+    cursor:grab;
+}
+.partedebaixo{
+    border:solid;
+    height: 80vh;
+}
+#titulo{
+    display:none;
+}
+nav li{
+    width: 100vw;
+    height: 2vh;
+}
+
+
+
+
+
+
+
+
+.middle figure{
+    width: 40vw;
+}
+.rey{
+    position: absolute;
+    display: flex;
+    left: 73.3%;
+    top: 51.2%;
+    z-index: 30;    
+}
+.rey :hover{
+    opacity: 90%;
+    cursor:grab;
+}
+.rey img{
+    width: 20vw;
+}
+@media(max-width:600px){
+    .rey{
+        top: 88.5%;
+        right: 30%;
+    } 
+ }
+
+@media (max-width:600px){
+    nav li{
+    width: 100vw;
+    height: 2vh;
+}
+}
