@@ -85,7 +85,7 @@ label span:nth-child(3){
     font-size:1.6vw;
     margin-left: 5vw;
 }
-h1:hover{
+.adaum:hover{
     cursor:pointer;
     color:lightcoral;
     text-shadow: 40px 30px 30px lightsalmon;
@@ -155,5 +155,9 @@ nav li:hover{
     .introduction img{
         width: 88.5vw;
         margin-top:10%;
+    }
+    .adaum{
+        display:flex;
+        border:solid;
     }
 }
